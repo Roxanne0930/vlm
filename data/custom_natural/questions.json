@@ -1,0 +1,86 @@
+[
+    {
+        "id": "self_001",
+        "image": "data/custom_natural/images/img1.jpg",
+        "question": "这张图片里的主体建筑是什么形状的？",
+        "answers": ["圆形", "穹顶", "圆顶建筑"],
+        "question_type": "scene_qa"
+    },
+    {
+        "id": "self_002",
+        "image": "data/custom_natural/images/img1.jpg",
+        "question": "图片前景中最显眼的自然景观是什么？",
+        "answers": ["湖泊", "湖水", "湖面"],
+        "question_type": "scene_qa"
+    },
+    {
+        "id": "self_003",
+        "image": "data/custom_natural/images/img2.jpg",
+        "question": "停车场中最右边的车是什么颜色？",
+        "answers": ["黑色", "深灰色"],
+        "question_type": "scene_qa"
+    },
+    {
+        "id": "self_004",
+        "image": "data/custom_natural/images/img2.jpg",
+        "question": "图片中间的树是常绿还是落叶？",
+        "answers": ["常绿", "常绿乔木"],
+        "question_type": "scene_qa"
+    },
+    {
+        "id": "self_005",
+        "image": "data/custom_natural/images/img3.jpg",
+        "question": "图片里的花是什么品种？",
+        "answers": ["蝴蝶兰", "兰花"],
+        "question_type": "object_qa"
+    },
+    {
+        "id": "self_006",
+        "image": "data/custom_natural/images/img3.jpg",
+        "question": "这些花的主要颜色是什么？",
+        "answers": ["粉紫色", "白色和紫色", "粉色"],
+        "question_type": "object_qa"
+    },
+    {
+        "id": "self_007",
+        "image": "data/custom_natural/images/img4.jpg",
+        "question": "图片中可以看到的英文单词是什么？",
+        "answers": ["GUISHAN", "I ❤️ GUISHAN"],
+        "question_type": "text_recognition"
+    },
+    {
+        "id": "self_008",
+        "image": "data/custom_natural/images/img4.jpg",
+        "question": "图片中的船身上写着什么中文？",
+        "answers": ["蓝色干线"],
+        "question_type": "text_recognition"
+    },
+    {
+        "id": "self_009",
+        "image": "data/custom_natural/images/img5.jpg",
+        "question": "图片中的太阳是什么状态？",
+        "answers": ["日落", "夕阳", "傍晚的太阳"],
+        "question_type": "scene_qa"
+    },
+    {
+        "id": "self_010",
+        "image": "data/custom_natural/images/img5.jpg",
+        "question": "图片的整体色调是什么样的？",
+        "answers": ["暖黄色", "橙黄色", "黄昏色调"],
+        "question_type": "scene_qa"
+    },
+    {
+        "id": "self_011",
+        "image": "data/custom_natural/images/img6.jpg",
+        "question": "图片里最显眼的建筑是什么？",
+        "answers": ["灯塔", "黄色灯塔"],
+        "question_type": "object_qa"
+    },
+    {
+        "id": "self_012",
+        "image": "data/custom_natural/images/img6.jpg",
+        "question": "灯塔顶部是什么颜色的？",
+        "answers": ["绿色", "墨绿色"],
+        "question_type": "object_qa"
+    }
+]
