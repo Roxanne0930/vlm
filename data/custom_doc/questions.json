@@ -1,0 +1,107 @@
+[
+    {
+        "id": "doc_001",
+        "image": "data/custom_doc/images/0cb84002609e145e7fc6a0c91a616c67.jpg",
+        "question": "这张表格中，哪个实验的代码量最多？",
+        "answers": ["IRgen", "三", "实验三"],
+        "question_type": "table_qa"
+    },
+    {
+        "id": "doc_002",
+        "image": "data/custom_doc/images/3c1421ca904b6f6710c5e246923906aa.jpg",
+        "question": "图片中展示的商品是什么类型的产品？",
+        "answers": ["卷发棒", "负离子卷发棒", "冷风卷发棒"],
+        "question_type": "product_qa"
+    },
+    {
+        "id": "doc_003",
+        "image": "data/custom_doc/images/9d3d718cb77692452476fba649531ce9.jpg",
+        "question": "这页PPT中，三地址码的英文缩写是什么？",
+        "answers": ["TAC", "Three-Address Code"],
+        "question_type": "text_recognition"
+    },
+    {
+        "id": "doc_004",
+        "image": "data/custom_doc/images/131bda6d1653a7b7d661dd1c7680abf8.jpg",
+        "question": "这个促销活动的折扣力度是多少？",
+        "answers": ["15%", "官方立减15%"],
+        "question_type": "text_recognition"
+    },
+    {
+        "id": "doc_005",
+        "image": "data/custom_doc/images/0372bbaadfd3e366f38396e3e697fcf8.jpg",
+        "question": "根据这页PPT，数字信号传输时为什么需要不同的表示方法？",
+        "answers": ["为了除去直流分量和频率很低的分量", "为了在接收端得到每个码元的起止时刻信息", "为了使信号的频谱和信道的传输特性相匹配"],
+        "question_type": "slide_qa"
+    },
+    {
+        "id": "doc_006",
+        "image": "data/custom_doc/images/6988e8b23b08a0d5c886566c6fb8f9eb.png",
+        "question": "这页文档主要介绍了什么内容？",
+        "answers": ["任务定义与应用背景", "课程作业的任务定义"],
+        "question_type": "slide_qa"
+    },
+    {
+        "id": "doc_007",
+        "image": "data/custom_doc/images/3161148c1002df5cabce43e6a88ff401.png",
+        "question": "根据这页文档，推荐使用哪些开源模型？",
+        "answers": ["Qwen2.5-VL", "LLaMA 3.2 Vision", "Gemma 3-Vision", "GLM-4.6V-Flash"],
+        "question_type": "slide_qa"
+    },
+    {
+        "id": "doc_008",
+        "image": "data/custom_doc/images/9418525e3487476f7539c5d0da8c5ff8.jpg",
+        "question": "这门课的平时成绩占总成绩的百分之多少？",
+        "answers": ["50%"],
+        "question_type": "text_recognition"
+    },
+    {
+        "id": "doc_009",
+        "image": "data/custom_doc/images/b0fec084c2cc038d7df6a23bf5dd6f99.jpg",
+        "question": "这份资料中推荐的计算机网络教材是哪本？",
+        "answers": ["谢希仁《计算机网络》"],
+        "question_type": "text_recognition"
+    },
+    {
+        "id": "doc_010",
+        "image": "data/custom_doc/images/c0b5ea4a968bf22ee5b19fe6258a6257.jpg",
+        "question": "图6-19中，数据报从111.111.111.110出发，第一跳路由器的IP地址是什么？",
+        "answers": ["111.111.111.110"],
+        "question_type": "slide_qa"
+    },
+    {
+        "id": "doc_011",
+        "image": "data/custom_doc/images/cb5652abf6b55b086281c3e30a27071c.png",
+        "question": "这个编译任务的最终得分是多少？",
+        "answers": ["100.00", "100"],
+        "question_type": "text_recognition"
+    },
+    {
+        "id": "doc_012",
+        "image": "data/custom_doc/images/d31b776adadd6fd41394d886a1e9d908.jpg",
+        "question": "这份作业中，习题2.1要求的计算内容是什么？",
+        "answers": ["E[X(t)]和R_X(0,1)", "期望和自相关函数"],
+        "question_type": "slide_qa"
+    },
+    {
+        "id": "doc_013",
+        "image": "data/custom_doc/images/d47fe04ad9cf78fb40a6e923dda21df7.jpg",
+        "question": "期末验收需要提交哪些材料？",
+        "answers": ["最终报告10-15页", "上台展示", "系统实现细节与代码仓库", "定量实验结果", "可视化/错误分析", "反思与展望"],
+        "question_type": "slide_qa"
+    },
+    {
+        "id": "doc_014",
+        "image": "data/custom_doc/images/d0949e33492dda9a8f15607c0bf125f9.jpg",
+        "question": "职业生涯规划作业的提交截止日期是什么时候？",
+        "answers": ["2026年4月6日", "4月6日前"],
+        "question_type": "text_recognition"
+    },
+    {
+        "id": "doc_015",
+        "image": "data/custom_doc/images/e9058245fba0b771586a0f591dae512f.jpg",
+        "question": "这段文字中，新治明天打算做什么？",
+        "answers": ["给灯塔长家送鱼"],
+        "question_type": "text_recognition"
+    }
+]
