@@ -1,3 +1,4 @@
+、、、
 vlm-qa-assistant/
 ├── src/
 │   ├── model/
@@ -15,3 +16,4 @@ vlm-qa-assistant/
 ├── run_eval.py                # 评测入口脚本
 ├── quick_test.py              # API连通性测试
 └── requirements.txt           # 依赖列表
+、、、
