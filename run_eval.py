@@ -28,13 +28,13 @@ results_csvqa = evaluate_dataset(
     output_path="outputs/csvqa_results.json"
 )
 all_results["ChineseSimpleVQA"] = results_csvqa["accuracy"]
-'''
-# ========== 2. DuReadervis 文档数据集（30张）==========
+
+# ========== 2. DuReadervis 文档数据集（100张）==========
 print("\n" + "=" * 60)
-print("评测2: DuReadervis 文档数据集（30张）")
+print("评测2: DuReadervis 文档数据集（100张）")
 print("=" * 60)
 dataset_dureader = VQADataset("data/dureader_vis", dataset_type="custom")
-dataset_dureader_subset = dataset_dureader.get_subset(30)
+dataset_dureader_subset = dataset_dureader.get_subset(100)
 results_dureader = evaluate_dataset(
     model, dataset_dureader_subset,
     output_path="outputs/dureader_results.json"
@@ -52,9 +52,9 @@ results_custom_doc = evaluate_dataset(
 )
 all_results["自建文档"] = results_custom_doc["accuracy"]
 
-# ========== 4. 自建自然场景类（6张）==========
+# ========== 4. 自建自然场景类（15张）==========
 print("\n" + "=" * 60)
-print("评测4: 自建自然场景数据集 (6张) ")
+print("评测4: 自建自然场景数据集 (15张) ")
 print("=" * 60)
 dataset_custom_nat = VQADataset("data/custom_natural", dataset_type="custom")
 results_custom_nat = evaluate_dataset(
@@ -73,4 +73,3 @@ for name, acc in all_results.items():
 with open("outputs/summary.json", "w", encoding="utf-8") as f:
     json.dump(all_results, f, ensure_ascii=False, indent=2)
 print("\n汇总已保存: outputs/summary.json")
-'''
