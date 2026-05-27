@@ -2,7 +2,7 @@
 vlm-qa-assistant/
 ├── src/
 │   ├── model/
-│   │   └── vlm_model.py      # VLMQA类：API调用、图像预处理、多轮对话
+│   │   └── vlm_model.py       # VLMQA类：API调用、图像预处理、多轮对话
 │   ├── data/
 │   │   └── dataset_loader.py  # VQADataset类：统一数据集加载接口
 │   └── eval/
@@ -13,6 +13,15 @@ vlm-qa-assistant/
 │   ├── custom_doc/            # 自建文档/幻灯片数据
 │   └── custom_natural/        # 自建自然场景数据
 ├── outputs/                   # 评测结果JSON文件
+├── ui/
+|   └── app.py                 # 前端界面开发
+├── uploads/                   # 用户上传/拍摄的图片存放处
+│   ├── 20260527_001.jpg
+│   └── ...
+├── logs/                      # 日志
+│   ├── log_20260526_001.log
+│   └── ...
+├── run.bat                    # 本地运行脚本
 ├── run_eval.py                # 评测入口脚本
 ├── quick_test.py              # API连通性测试
 └── requirements.txt           # 依赖列表
