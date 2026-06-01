@@ -1,12 +1,11 @@
 torch>=2.0.0
 transformers>=4.37.0
 accelerate
-pillow
 qwen-vl-utils
-gradio
 datasets
 evaluate
 scikit-learn
+openai
 gradio==6.15.0
 loguru==0.7.2
 pillow>=10.0.0
